@@ -13,10 +13,8 @@ window.onload = () => {
 
 function getRandomElementOfAnArray (array) {
 
-    let randomNumber = Math.floor(Math.random() * array.length);
-     
-    let randomElementOfAnArray = array[randomNumber]; 
-        
+    let randomElementOfAnArray = array[Math.floor(Math.random() * array.length)]; 
+      
     return randomElementOfAnArray; 
 }
 
@@ -27,7 +25,8 @@ let generateExcuses = () => {
     for (var i = 0; i < listOptions.length; i++){
         excuses = excuses.concat(" ", getRandomElementOfAnArray(listOptions[i]));
     }
-
+    
     return excuses
 };
+
 
