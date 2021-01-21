@@ -13,9 +13,8 @@ window.onload = () => {
 
 function getRandomElementOfAnArray(array) {
 
-    let randomElementOfAnArray = array[Math.floor(Math.random() * array.length)]; 
+    return array[Math.floor(Math.random() * array.length)]; 
       
-    return randomElementOfAnArray; 
 }
 
 let generateExcuses = () => {
