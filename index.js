@@ -11,7 +11,7 @@ window.onload = () => {
     });
 };
 
-function getRandomElementOfAnArray (array) {
+function getRandomElementOfAnArray(array) {
 
     let randomElementOfAnArray = array[Math.floor(Math.random() * array.length)]; 
       
